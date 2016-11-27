@@ -27,4 +27,8 @@ public class GeraListaArquivo {
 			subpastas.remove(0);
 		}
 	}
+
+	public List<String> getListaArquivos() {
+		return listaArquivos;
+	}
 }
